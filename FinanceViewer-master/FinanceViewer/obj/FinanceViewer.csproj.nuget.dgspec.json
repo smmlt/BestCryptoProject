@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kbodi\\.vscode\\Fintech\\CryptoProject\\FinanceViewer-master\\FinanceViewer\\FinanceViewer.csproj": {}
+    "C:\\Users\\Kbodi\\.vscode\\Fintech\\BestCryptoProject\\FinanceViewer-master\\FinanceViewer\\FinanceViewer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kbodi\\.vscode\\Fintech\\CryptoProject\\FinanceViewer-master\\FinanceViewer\\FinanceViewer.csproj": {
+    "C:\\Users\\Kbodi\\.vscode\\Fintech\\BestCryptoProject\\FinanceViewer-master\\FinanceViewer\\FinanceViewer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kbodi\\.vscode\\Fintech\\CryptoProject\\FinanceViewer-master\\FinanceViewer\\FinanceViewer.csproj",
+        "projectUniqueName": "C:\\Users\\Kbodi\\.vscode\\Fintech\\BestCryptoProject\\FinanceViewer-master\\FinanceViewer\\FinanceViewer.csproj",
         "projectName": "FinanceViewer",
-        "projectPath": "C:\\Users\\Kbodi\\.vscode\\Fintech\\CryptoProject\\FinanceViewer-master\\FinanceViewer\\FinanceViewer.csproj",
+        "projectPath": "C:\\Users\\Kbodi\\.vscode\\Fintech\\BestCryptoProject\\FinanceViewer-master\\FinanceViewer\\FinanceViewer.csproj",
         "packagesPath": "C:\\Users\\Kbodi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kbodi\\.vscode\\Fintech\\CryptoProject\\FinanceViewer-master\\FinanceViewer\\obj\\",
+        "outputPath": "C:\\Users\\Kbodi\\.vscode\\Fintech\\BestCryptoProject\\FinanceViewer-master\\FinanceViewer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

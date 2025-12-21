@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinanceViewer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03d3614b6f22e3579cee3dee9303f6ee0609d9c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2caa4dd57a223d557b8c5ee06d2ad91e1c2a93a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinanceViewer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinanceViewer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

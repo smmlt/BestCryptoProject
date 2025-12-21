@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cYYk+hSRkLo=",
+  "dgSpecHash": "K8OJvaqXXWw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kbodi\\.vscode\\Fintech\\CryptoProject\\FinanceViewer-master\\FinanceViewer\\FinanceViewer.csproj",
+  "projectFilePath": "C:\\Users\\Kbodi\\.vscode\\Fintech\\BestCryptoProject\\FinanceViewer-master\\FinanceViewer\\FinanceViewer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kbodi\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Kbodi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
