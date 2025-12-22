@@ -78,7 +78,7 @@ BestCryptoProject/
 3. Бэкенд будет доступен по адресу (пример):
 
    ```
-   https://localhost:5001
+   https://localhost:5000
    ```
 
 > ⚠️ Убедитесь, что строка подключения к SQLite указана корректно в `appsettings.json`.
