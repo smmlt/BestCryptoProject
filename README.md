@@ -43,7 +43,7 @@ BestCryptoProject/
 │  └─ FinanceViewer/
 │     └─ Program.cs        ← Backend (.NET)
 │
-└─ frontend/               ← Frontend (React + Next.js)
+├─ FinanceViewerFrontend2-main/           ← Frontend (React + Next.js)
 ```
 
 ---
@@ -90,7 +90,7 @@ BestCryptoProject/
 1. Перейдите в папку фронтенда:
 
    ```bash
-   cd frontend
+   cd FinanceViewerFrontend2-main
    ```
 
 2. Установите зависимости:
