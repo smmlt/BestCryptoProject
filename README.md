@@ -150,10 +150,10 @@ ngrok-skip-browser-warning: 1
 
 ## 👨‍💻 Авторы проекта
 
-- **Igor Makarenko** — Frontend Developer  
+- **Igor Makarenko** — Backend Developer  
   GitHub: https://github.com/Igggosha
 
-- **Zakhar Kotov** — Backend Developer  
+- **Zakhar Kotov** — Frontend Developer  
   GitHub: https://github.com/GboyYouMam
 
 - **Bogdan Kononov** — Fullstack / API & Integration  
