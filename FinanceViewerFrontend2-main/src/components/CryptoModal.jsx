@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import PriceChart from './PriceChart';
 
@@ -25,7 +25,6 @@ export default function CryptoModal({ coin, onClose }) {
                     {coin.name} ({coin.symbol.toUpperCase()})
                 </h2>
 
-                {/* Передаем только initial значения в PriceChart */}
                 <PriceChart
                     symbol={coin.symbol}
                     initialHigh24h={coin.high_24h}
