@@ -48,6 +48,12 @@ export default async function Home({ searchParams }) {
                         <Link href={`/?page=${currentPage}&sort=low_24h`} title="24h Low" className={getBtnStyle('low_24h')}>
                             <Low24hIcon className="w-6 h-6" />
                         </Link>
+                        <Link
+                            href={`/?page=${currentPage}`}  // не указываем sort, чтобы использовать умолчание
+                            className="h-12 px-4 flex items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-500 shadow-sm hover:border-blue-300 hover:text-blue-600 transition-all active:scale-90"
+                        >
+                            Reset
+                        </Link>
                     </div>
                 </div>
 
