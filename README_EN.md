@@ -1,146 +1,169 @@
-🚀 Finance Viewer
 
-Finance Viewer is a web application for real-time cryptocurrency analysis and tracking.
-The project consists of a frontend (React + Next.js) and a backend (.NET / ASP.NET Core).
+# 🚀 Finance Viewer
 
-📌 Key Features
+**Finance Viewer** is a web application for real-time cryptocurrency analysis and tracking.
+The project consists of a **frontend (React + Next.js)** and a **backend (.NET / ASP.NET Core)**.
 
-Cryptocurrency market overview (price, market cap, volume, 24h High/Low)
+---
 
-Sorting cryptocurrencies by various parameters
+## 📌 Key Features
 
-Real-time linear price chart (Binance WebSocket)
+* View the cryptocurrency market (price, market cap, volume, 24h High/Low)
+* Sort cryptocurrencies by various parameters
+* Real-time linear price chart (Binance WebSocket)
+* Retrieve cryptocurrency balances (BTC, ETH, SOL) by wallet address
+* API proxy usage to bypass CORS and ngrok limitations
 
-Retrieving cryptocurrency balances (BTC, ETH, SOL) by wallet address
+---
 
-API proxy usage to bypass CORS and ngrok limitations
+## 🧩 Technology Stack
 
-🧩 Technology Stack
-Frontend
+### Frontend
 
-React
+* React
+* Next.js
+* TailwindCSS
+* Chart.js (`react-chartjs-2`)
+* WebSocket (Binance)
 
-Next.js
+### Backend
 
-TailwindCSS
+* ASP.NET Core (.NET)
+* Entity Framework Core
+* SQLite
+* ASP.NET Identity
 
-Chart.js (react-chartjs-2)
+---
 
-WebSocket (Binance)
+## 📂 Project Structure
 
-Backend
-
-ASP.NET Core (.NET)
-
-Entity Framework Core
-
-SQLite
-
-ASP.NET Identity
-
-📂 Project Structure
+```
 BestCryptoProject/
 ├─ FinanceViewer-master/
 │  └─ FinanceViewer/
 │     └─ Program.cs        ← Backend (.NET)
 │
 ├─ FinanceViewerFrontend2-main/           ← Frontend (React + Next.js)
+```
 
-⚙️ Running the Project Locally
-✅ Prerequisites
+---
 
-Make sure you have installed:
+## ⚙️ Running the Project Locally
 
-Node.js (v18+ recommended)
+### ✅ Prerequisites
 
-npm
+Make sure you have the following installed:
 
-.NET SDK 7.0+
+* **Node.js** (v18+ recommended)
+* **npm**
+* **.NET SDK 7.0+**
+* **Git**
 
-Git
+---
 
-🔧 Running Backend (.NET)
+## 🔧 Running the Backend (.NET)
 
-Navigate to the backend folder:
+1. Navigate to the backend folder:
 
-cd BestCryptoProject/FinanceViewer-master/FinanceViewer
+   ```bash
+   cd BestCryptoProject/FinanceViewer-master/FinanceViewer
+   ```
 
+2. Run the project:
 
-Run the project:
+   ```bash
+   dotnet run
+   ```
 
-dotnet run
+3. The backend will be available at (example):
 
+   ```
+   https://localhost:5000
+   ```
 
-Backend will be available at (example):
+> ⚠️ Make sure the SQLite connection string is correctly configured in `appsettings.json`.
 
-https://localhost:5000
+---
 
+## 🎨 Running the Frontend (React + Next.js)
 
-⚠️ Make sure the SQLite connection string is correctly set in appsettings.json.
+1. Navigate to the frontend folder:
 
-🎨 Running Frontend (React + Next.js)
+   ```bash
+   cd FinanceViewerFrontend2-main
+   ```
 
-Navigate to the frontend folder:
+2. Install dependencies:
 
-cd FinanceViewerFrontend2-main
+   ```bash
+   npm install
+   ```
 
+3. Create a `.env.local` file and specify the backend URL:
 
-Install dependencies:
+   ```env
+   NEXT_PUBLIC_API_BASE_URL=https://localhost:5001/api/v1
+   ```
 
-npm install
+4. Start the development server:
 
+   ```bash
+   npm run dev
+   ```
 
-Create .env.local and specify backend URL:
+5. Open in your browser:
 
-NEXT_PUBLIC_API_BASE_URL=https://localhost:5001/api/v1
+   ```
+   http://localhost:3000
+   ```
 
+---
 
-Start the development server:
+## 🔁 API Proxy & CORS
 
-npm run dev
-
-
-Open in browser:
-
-http://localhost:3000
-
-🔁 API Proxy and CORS
-
-To bypass CORS and ngrok warnings, an API proxy is used on the Next.js side.
+To bypass CORS issues and ngrok warnings, an **API proxy** is used on the Next.js side.
 It adds the following header:
 
+```http
 ngrok-skip-browser-warning: 1
+```
 
+and proxies requests to the backend, returning valid JSON responses.
 
-and proxies requests to the backend, returning valid JSON.
+---
 
-🧪 Common Issues and Solutions
-❌ API returns HTML instead of JSON
+## 🧪 Common Issues & Solutions
 
-✔️ Fixed — API now always returns JSON.
+### ❌ API returns HTML instead of JSON
 
-❌ CORS / ngrok error
+✔️ Fixed — the API now always returns JSON.
 
-✔️ Solved using a server-side API proxy in Next.js.
+### ❌ CORS / ngrok error
 
-❌ addCandlestickSeries is not a function error
+✔️ Resolved using a server-side API proxy in Next.js.
 
-✔️ Candlestick chart replaced with a linear chart (react-chartjs-2).
+### ❌ `addCandlestickSeries is not a function` error
 
-👨‍💻 Project Authors
+✔️ The candlestick chart was replaced with a linear chart (`react-chartjs-2`).
 
-Igor Makarenko — Backend Developer
+---
 
-Zakhar Kotov — Frontend Developer
+## 👨‍💻 Project Authors
 
-Bogdan Kononov — Fullstack / API & Integration
+* **Igor Makarenko** — Backend Developer
+  GitHub: [https://github.com/Igggosha](https://github.com/Igggosha)
 
-📈 Possible Improvements
+* **Zakhar Kotov** — Frontend Developer
+  GitHub: [https://github.com/GboyYouMam](https://github.com/GboyYouMam)
 
-Adding candlestick charts
+* **Bogdan Kononov** — Fullstack / API & Integration
+  GitHub: [https://github.com/smmlt](https://github.com/smmlt)
 
-Expanding supported cryptocurrencies
+---
 
-User portfolio analytics
+## 📈 Possible Improvements
 
-UX and performance improvements
+* Add a candlestick chart
+* Expand the list of supported cryptocurrencies
+* User portfolio analytics
+* Improved UX and performance
